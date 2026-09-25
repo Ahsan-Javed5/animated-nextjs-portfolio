@@ -53,10 +53,10 @@ export const personal = {
     "AI Researcher",
   ],
   summary:
-    "I build production Flutter apps, teach Computer Science and Mathematics at university and online, and research adaptive attention mechanisms for diffusion language models.",
+    "Passionate Data Scientist, Researcher & Software Engineer specializing in AI solutions, web & mobile apps, and expert technical tutoring in CS & Mathematics.",
   longBio:
-    "I started out teaching Mathematics and Computer Science over a decade ago, and later moved into software engineering, where I've spent the last 5+ years building production Flutter apps for fintech, food-tech, and transportation companies. Alongside industry work, I teach at the university level — currently a lab instructor at Bahria University — and tutor Math, CS, Statistics, and AI to students across the UK, USA, Canada, the Gulf, and Europe. I'm now completing an MS in Data Science, researching time-step-aware attention mechanisms for diffusion language models, with an eye on taking that research further abroad.",
-  email: "ahsanjaved5000@gmail.com",
+    "Passionate Data Scientist, Researcher & Software Engineer with an MS in Data Science and a solid background in Computer Science and Mathematics. My active research focuses on Artificial Intelligence, Smart Algorithms, and Optimization—applying mathematical modeling to solve complex, real-world data problems. Alongside research, I have extensive experience building end-to-end digital solutions, ranging from custom AI models to modern web platforms and mobile applications (both standard and AI-integrated). Beyond research and development, I am deeply committed to education. I provide personalized tutoring and technical mentorship in Python, Higher Mathematics, Data Science, and Computer Science—helping students, researchers, and professionals master complex concepts through practical, hands-on guidance.",
+      email: "ahsanjaved5000@gmail.com",
   phone: "+92 331 5534673",
   resumeHref: "#",
 };
@@ -73,21 +73,21 @@ export const roles: Role[] = [
     key: "lecturer",
     title: "Lecturer",
     blurb:
-      "Visiting lecturer and lab instructor at Bahria University, teaching Swarm Intelligence and Introduction to Programming, with prior faculty roles at Virtual University of Pakistan and Quaid-i-Azam University.",
+      "Lecturer at Bahria University, teaching Swarm Intelligence and ICT, with prior faculty roles at Virtual University of Pakistan and Quaid-i-Azam University.",
     icon: "podium",
   },
   {
     key: "tutor",
     title: "Tutor",
     blurb:
-      "10 years tutoring Mathematics, Computer Science, Statistics, and AI — working with IGCSE, GCSE, IB, and university students across the UK, USA, Canada, the Gulf, and Europe.",
+      "5 years tutoring Mathematics, Computer Science, Statistics, and AI — working with IGCSE, GCSE, IB, and university students across the UK, USA, Canada, the Gulf, and Europe.",
     icon: "compass",
   },
   {
     key: "researcher",
     title: "AI Researcher",
     blurb:
-      "MS Data Science thesis researching time-step-aware attention mechanisms for masked diffusion language models.",
+      "Conducting research on time-step-aware attention mechanisms to enhance masked diffusion language models. My work aims to make AI language generation faster, more precise, and computationally efficient.",
     icon: "flask",
   },
 ];
@@ -133,7 +133,7 @@ export const skills: Skill[] = [
       "Mathematics",
       "Statistics",
       "Calculus",
-      "Swarm Intelligence (PSO, ACO, ABC, GWO)",
+      "Computer Science Majors",
     ],
   },
   {
@@ -152,27 +152,35 @@ export const skills: Skill[] = [
 ];
 
 export const projects: Project[] = [
+     {
+    title: "American Taxi Dispatch — Cab Booking App",
+    description:
+      "RoutineFix is an AI-powered Flutter app that converts your goals into structured daily routines, complete with smart reminders, occasion scheduling, habit streaks, and progress analytics.",
+    tags: ["AI", "Flutter", "Habit Tracker", "Disciplined Routine"],
+    href: "https://github.com/Ahsan-Javed5/routine_fix.git",
+    year: "2026",
+  },
+   {
+    title: "American Taxi Dispatch — Cab Booking App",
+    description:
+      "Production ride-hailing app with real-time GPS tracking, Google Maps integration, and multi-gateway payments (Stripe, Square, Google Pay, Apple Pay) secured by Firebase OTP authentication. Live on the Play Store and App Store.",
+    tags: ["Flutter", "Firebase", "Google Maps API", "Stripe/Square", "MVVM"],
+    href: "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    year: "2023",
+  },
   {
     title: "Rental AI — AI-Powered Rental Agreement Analyzer",
     description:
       "An AI-powered app that analyzes rental agreements using a Mistral LLM and Retrieval-Augmented Generation (RAG), automatically flagging potentially problematic clauses. Flutter frontend with a Python/ChromaDB backend, deployed on a rented GPU pod via RunPod.",
     tags: ["Flutter", "Python", "Mistral LLM", "RAG", "ChromaDB"],
     repo: "https://github.com/Ahsan-Javed5/rental_ai",
-    year: "2025",
+    year: "2026",
     featured: true,
-  },
-  {
-    title: "American Taxi Dispatch — Cab Booking App",
-    description:
-      "Production ride-hailing app with real-time GPS tracking, Google Maps integration, and multi-gateway payments (Stripe, Square, Google Pay, Apple Pay) secured by Firebase OTP authentication. Live on the Play Store and App Store with 10,000+ active users.",
-    tags: ["Flutter", "Firebase", "Google Maps API", "Stripe/Square", "MVVM"],
-    href: "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
-    year: "2023",
   },
   {
     title: "Feyst — Food Tech Platform",
     description:
-      "Multi-restaurant food ordering platform with real-time order tracking, secure payments (JazzCash, credit card), and a BLoC-based architecture. Published on the Play Store and App Store with 5,000+ downloads and a 4.5-star rating.",
+      "Multi-restaurant food ordering platform with real-time order tracking, secure payments (JazzCash, credit card), and a BLoC-based architecture. Published on the Play Store and App Store",
     tags: ["Flutter", "BLoC", "JazzCash"],
     href: "https://play.google.com/store/apps/details?id=com.feyst.foodies",
     year: "2024",
@@ -182,35 +190,35 @@ export const projects: Project[] = [
 export const timeline: TimelineItem[] = [
   {
     period: "2026 — Present",
-    title: "Lecturer / Lab Instructor",
-    org: "Bahria University",
+    title: "Lecturer",
+    org: "Bahria University, Islamabad",
     description:
-      "Teaching Swarm Intelligence (PSO, ACO, ABC, GWO) and Introduction to Programming labs to BS students.",
+      "Teaching Swarm Intelligence and ICT labs to BS students.",
     type: "teaching",
   },
+   {
+    period: "2023 — Present",
+    title: "Senior Product Developer",
+    org: "American Taxi Dispatch Inc., Chicago, IL",
+    description:
+      "Building and maintaining a production Flutter ride-hailing app with thousands of active users, cutting dispatch response time by 15%.",
+    type: "work",
+  },
   {
-    period: "2025 — Present",
-    title: "MS Data Science (Thesis Stage)",
+    period: "2025 — 2026",
+    title: "MS Data Science",
     org: "Abasyn University, Islamabad",
     description:
       "Thesis on time-step-aware attention mechanisms for diffusion language models, exploring Sinkhorn-style and softmax attention across the diffusion timeline.",
     type: "education",
   },
   {
-    period: "2024 — Present",
+    period: "2024 — 2025",
     title: "Visiting Faculty — Probability & Statistics, AI with Python",
     org: "Quaid-i-Azam University",
     description:
       "Teaching Probability & Statistics and AI with Python to BS students with hands-on labs.",
     type: "teaching",
-  },
-  {
-    period: "2023 — Present",
-    title: "Mobile App Developer (Part-Time Remote)",
-    org: "American Taxi Dispatch Inc., Chicago, IL",
-    description:
-      "Building and maintaining a production Flutter ride-hailing app with 100,000+ active users, cutting dispatch response time by 15%.",
-    type: "work",
   },
   {
     period: "2022 — 2024",
@@ -221,11 +229,11 @@ export const timeline: TimelineItem[] = [
     type: "work",
   },
   {
-    period: "2015 — Present",
+    period: "2021 — Present",
     title: "Private Online Tutor & Academic Mentor",
     org: "International Students — UK, USA, Canada, Gulf & Europe",
     description:
-      "10 years tutoring Mathematics, Computer Science, Statistics, and AI across IGCSE, GCSE, IB, and university-level curricula.",
+      "5 years tutoring Mathematics, Computer Science, Statistics, and AI across IGCSE, GCSE, IB, and university-level curricula.",
     type: "teaching",
   },
 ];

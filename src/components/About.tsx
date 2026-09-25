@@ -9,7 +9,7 @@ export default function About() {
           <p className="text-sm text-brass-bright">About</p>
         </Reveal>
         <Reveal delay={0.1}>
-          <p className="max-w-2xl font-display text-2xl leading-snug text-bone md:text-3xl">
+          <p className="max-w-2xl font-display text-2xl leading-snug text-bone md:text-lg">
             {personal.longBio}
           </p>
         </Reveal>
