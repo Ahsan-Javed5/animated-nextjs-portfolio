@@ -1,4 +1,5 @@
 # 🚀 Modern Animated Developer Portfolio
+<img width="800" height="405" alt="ScreenRecording2026-09-25at2 28 21PM-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/748f5ef0-6d66-4a8e-a49d-e7c1635cccc9" />
 
 A sleek, responsive, and high-performance developer portfolio built with **Next.js**, **Tailwind CSS**, and modern UI animations. Designed for developers, software engineers, and creators looking for a modern, production-ready portfolio template.
 
