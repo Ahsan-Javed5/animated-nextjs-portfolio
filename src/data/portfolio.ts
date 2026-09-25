@@ -153,7 +153,7 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
      {
-    title: "American Taxi Dispatch — Cab Booking App",
+    title: "Routine Fix — AI Habit Discipliner App",
     description:
       "RoutineFix is an AI-powered Flutter app that converts your goals into structured daily routines, complete with smart reminders, occasion scheduling, habit streaks, and progress analytics.",
     tags: ["AI", "Flutter", "Habit Tracker", "Disciplined Routine"],
